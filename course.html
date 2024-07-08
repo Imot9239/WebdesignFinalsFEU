@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="delicacies.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff9800; 
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #f57c00; 
+        }
+    </style>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="Title.html"><img src="img/chowking.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="Title.html"><b>Home</b></a></li>
+                <li class="dropdown" onmouseover="showDropdown('attractionsDropdown')" onmouseout="hideDropdown('attractionsDropdown')">
+                    <a href=""><b>Chowking &#9662;</b></a>
+                    <div class="dropdown-content" id="attractionsDropdown">
+                        <a href="history.html">History</a>
+                    </div>
+                </li>
+                <li><a href="title1.html"><b>Food</b></a></li>
+                <li><a href="About.html" class="active"><b>About</b></a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1><font color="white"><b>Chowking Meals</b></font></h1>
+</section>
+
+<section>
+    <div class="delicacies-box">
+        <div class="first-delicacies">
+            <img src="img/Friedchicken.jpg" alt="Buro">
+            <div class="overlay"></div>
+            <div class="food-desc">
+                <h3><b>Fried Chicken</b></h3>
+                <hr>
+                <p>Very crunchy and juicy fried chicken served hot, ready to eat and enjoy. Try out one of the famous Chinese style fried chicken here in the Philippines.</p>
+            </div>
+        </div>
+        <div class="first-delicacies">
+            <img src="img/Chowkingsiomai.jpg">
+            <div class="overlay"></div>
+            <div class="food-desc">
+                <h3><b>Chao fan Siomai</b></h3>
+                <hr>
+                <p>Delicious and fresh siomai partnered with "Chao fan" or what we call the Chinese fried rice has been one of the staple food that the Filipino order and enjoy as lunch or dinner.</p>
+            </div>
+        </div>
+        <div class="first-delicacies">
+            <div class="overlay"></div>
+            <img src="img/Chowkinglauriat.jpg">
+            <div class="food-desc">
+                <h3><b>Chowking Lauriat Combo</b></h3>
+                <hr>
+                <p>Chao fan and Siomai partnered with different food such as lumpiang shanghai and pancit with other various delicacies is sure to make you full with its very affordable price all in one plate.</p>
+            </div>
+        </div>
+        <div class="first-delicacies">
+            <div class="overlay"></div>
+            <img src="img/Pancit canton.jpg">
+            <div class="food-desc">
+                <h3><b>Pancit Canton</b></h3>
+                <hr>
+                <p>Taste the original Pancit Canton made from China. Different from how people in the Philippines make pancit canton, it is sure to catch the eyes of foodies and capture with its unique flavor and take on the pancit canton.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <a href="delicacies.html" class="button"><b>Desserts</b></a>
+</section>
+
+<section class="footer">
+    <div class="footer-bottom">
+        <p>Copyright &copy; 2024. Designed by <span>Anthony Luis Ponce de Leon</span></p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
